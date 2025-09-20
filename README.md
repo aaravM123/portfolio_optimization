@@ -46,18 +46,6 @@ This project implements a reinforcement learning (RL) agent in PyTorch that dyna
 
 ---
 
-## Final Results (2018–Today)
-
-Portfolio values (start = 1.0):
-
-![Backtest Results](e2a72162-dae8-4f9a-a013-546a33d9c58b.png)
-
-- Buy & Hold SPY: ~2.8x growth  
-- RL Agent (Phase 5): ~1.8x growth  
-- Equal Weight: ~1.7x growth  
-
----
-
 ## Key Takeaways
 - The RL agent performed close to equal-weight but underperformed SPY on raw returns.
 - The project demonstrates:
