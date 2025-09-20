@@ -44,14 +44,3 @@ This project implements a reinforcement learning (RL) agent in PyTorch that dyna
 - Retrained the agent in this environment.
 - Backtested again on unseen data.
 
----
-
-## Key Takeaways
-- The RL agent performed close to equal-weight but underperformed SPY on raw returns.
-- The project demonstrates:
-  - Building custom RL environments for finance.
-  - Implementing policy gradient reinforcement learning in PyTorch.
-  - Evaluating strategies using quant metrics (Sharpe, volatility, drawdown).
-- Even if performance is below SPY, the full pipeline represents a complete RL research framework.
-
-
