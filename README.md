@@ -44,14 +44,6 @@ This project implements a reinforcement learning (RL) agent in PyTorch that dyna
 - Retrained the agent in this environment.
 - Backtested again on unseen data.
 
-### Phase 6 — Extensions (Future Work)
-- Possible improvements:
-  - Allow shorting.
-  - Add more asset classes (crypto, EM equities, corporate bonds).
-  - Include macroeconomic features (CPI, unemployment, VIX).
-  - Upgrade RL algorithm (PPO, A2C, DDPG).
-  - Build regime-switching agents.
-
 ---
 
 ## Final Results (2018–Today)
@@ -74,36 +66,4 @@ Portfolio values (start = 1.0):
   - Evaluating strategies using quant metrics (Sharpe, volatility, drawdown).
 - Even if performance is below SPY, the full pipeline represents a complete RL research framework.
 
----
 
-## Repository Structure
-rl-portfolio-optimization/
-│── data/
-│ └── asset_returns.csv
-│
-│── notebooks/
-│ ├── 01_phase1_data.ipynb
-│ ├── 02_phase2_env.ipynb
-│ ├── 03_phase3_basic_agent.ipynb
-│ ├── 04_phase4_training_eval.ipynb
-│ ├── 05_phase5_enhanced_env.ipynb
-│ └── 06_phase5_backtest.ipynb
-│
-│── src/
-│ ├── portfolio_env.py
-│ ├── policy_network.py
-│ ├── train.py
-│ ├── backtest.py
-│
-│── README.md
-
-pgsql
-Copy code
-
----
-
-## Learning Outcomes
-- How to design a custom RL environment for portfolio optimization.
-- How to implement and train policy gradient agents in PyTorch.
-- How to evaluate portfolio strategies with financial metrics.
-- Gained experience with the full ML-to-finance pipeline.
